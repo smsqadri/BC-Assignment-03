@@ -1,23 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          ThankYou <code>Mr</code> Aamir Pinger
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Turn react
-        </a>
+      <header>
+        <h1>Thank You Aamir Pinger</h1>
       </header>
       </div>
   );
