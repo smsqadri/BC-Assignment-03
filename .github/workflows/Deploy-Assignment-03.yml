@@ -15,7 +15,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-# Steps represent a sequence of tasks that will be executed as part of the job
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
@@ -38,5 +38,5 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
       
-    - name: Deploying on surge
-      run: surge ./build http://bc_assignment03.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+    - name: Deploying on Surge
+      run: surge ./build http://bc-assignment-03.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
